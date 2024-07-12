@@ -1,0 +1,13 @@
+{
+    "providers": [
+        {
+            "file": "icons:title.png",
+            "chars": [
+                ""
+            ],
+            "height": 32,
+            "ascent": 8,
+            "type": "bitmap"
+        }
+    ]
+}
