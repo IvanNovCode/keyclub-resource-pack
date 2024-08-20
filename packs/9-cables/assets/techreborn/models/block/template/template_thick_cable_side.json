@@ -1,0 +1,44 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"particle": "#cable",
+		"cable": "#cable"
+	},
+	"elements": [
+		{
+			"name": "side part",
+			"from": [5, 5, 0],
+			"to": [11, 11, 5],
+			"faces": {
+				"east": {"uv": [5, 6, 0, 12], "texture": "#cable"},
+				"west": {"uv": [0, 6, 5, 12], "texture": "#cable"},
+				"up": {"uv": [0, 6, 5, 12], "rotation": 90, "texture": "#cable"},
+				"down": {"uv": [5, 6, 0, 12], "rotation": 90, "texture": "#cable"}
+			}
+		},
+		{
+			"name": "side part",
+			"from": [11, 5, 0],
+			"to": [5, 11, 5],
+			"faces": {
+				"east": {"uv": [5, 6, 0, 12], "texture": "#cable"},
+				"west": {"uv": [0, 6, 5, 12], "texture": "#cable"},
+				"up": {"uv": [0, 6, 5, 12], "rotation": 90, "texture": "#cable"},
+				"down": {"uv": [5, 6, 0, 12], "rotation": 90, "texture": "#cable"}
+			}
+		},
+		{
+			"name": "side part",
+			"from": [6, 6, 0],
+			"to": [10, 10, 5],
+			"faces": {
+				"north": {"uv": [6, 0, 10, 4], "texture": "#cable"},
+				"east": {"uv": [0, 12, 5, 16], "texture": "#cable"},
+				"south": {"uv": [6, 0, 10, 4], "texture": "#cable", "cullface": "south"},
+				"west": {"uv": [0, 12, 5, 16], "texture": "#cable"},
+				"up": {"uv": [0, 12, 6, 16], "rotation": 90, "texture": "#cable"},
+				"down": {"uv": [0, 12, 6, 16], "rotation": 90, "texture": "#cable"}
+			}
+		}
+	]
+}
