@@ -1,1 +1,1 @@
-{"parent":"minecraft:item/handheld","textures":{"layer0":"diamkey:giant_sword"},"overrides":[{"predicate":{"custom_model_data":10000},"model":"diamkey:giant_sword"},{"predicate":{"custom_model_data":10001},"model":"item/iron_sword"}]}
+{"parent":"minecraft:item/handheld","textures":{"layer0":"minecraft:item/iron_sword"},"overrides":[{"predicate":{"custom_model_data":10000},"model":"diamkey:giant_sword"},{"predicate":{"custom_model_data":10001},"model":"item/iron_sword"}]}
