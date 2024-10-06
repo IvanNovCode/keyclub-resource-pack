@@ -31,9 +31,9 @@
         {"predicate": {"pulling": 1, "pull": 0.65},"model": "item/bow_pulling_1"},
         {"predicate": {"pulling": 1, "pull": 0.9}, "model": "item/bow_pulling_2"},
 
-        {"predicate": {"custom_model_data":500},"model": "item/pufferfish_bow/bow.json"},
-        {"predicate": {"custom_model_data":500,"pulling": 1},"model": "item/pufferfish_bow/bow_pulling_0.json"},
-        {"predicate": {"custom_model_data":500,"pulling": 1,"pull": 0.65},"model": "item/pufferfish_bow/bow_pulling_1.json"},
-        {"predicate": {"custom_model_data":500,"pulling": 1,"pull": 0.9},"model": "item/pufferfish_bow/bow_pulling_2.json"},
+        {"predicate": {"custom_model_data":500},"model": "item/pufferfish_bow/bow"},
+        {"predicate": {"custom_model_data":500,"pulling": 1},"model": "item/pufferfish_bow/bow_pulling_0"},
+        {"predicate": {"custom_model_data":500,"pulling": 1,"pull": 0.65},"model": "item/pufferfish_bow/bow_pulling_1"},
+        {"predicate": {"custom_model_data":500,"pulling": 1,"pull": 0.9},"model": "item/pufferfish_bow/bow_pulling_2"},
     ]
 }
